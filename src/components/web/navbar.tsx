@@ -21,7 +21,10 @@ export function Navbar() {
         <Link href="/blog" className={buttonVariants({ variant: "ghost" })}>
           Blog
         </Link>
-        <Link href="/create" className={buttonVariants({ variant: "ghost" })}>
+        <Link
+          href="/blog/create"
+          className={buttonVariants({ variant: "ghost" })}
+        >
           Create
         </Link>
       </div>
@@ -39,7 +42,7 @@ export function Navbar() {
         >
           Login
         </Link>
-        <ThemeToggle/>
+        <ThemeToggle />
       </div>
     </nav>
   );
