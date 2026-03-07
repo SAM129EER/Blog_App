@@ -1,6 +1,7 @@
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col
+    justify-between ">
       <h1>Shared Layout</h1>
       <p>
         This page is rendered in the shared layout, which is defined in
@@ -12,6 +13,6 @@ export default function Home() {
         header, footer, or other elements across your app, while still allowing
         for page-specific layouts when needed.
       </p>
-    </>
+    </div>
   );
 }
