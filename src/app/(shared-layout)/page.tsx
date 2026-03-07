@@ -1,7 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-col
-    justify-between ">
+    <div >
       <h1>Shared Layout</h1>
       <p>
         This page is rendered in the shared layout, which is defined in
