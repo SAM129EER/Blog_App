@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Navbar } from "@/components/web/navbar";
+import { buttonVariants } from "@/components/ui/button";
 
 type Post = { title: string; slug: string; excerpt?: string };
 
@@ -32,7 +33,7 @@ export default function BlogPage() {
       <div className="max-w-3xl mx-auto py-8">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-semibold">Blog</h1>
-          <Link href="/blog/create" className="text-sm text-primary">
+          <Link href="/blog/create" className={buttonVariants({ variant: "default" })}>
             Create post
           </Link>
         </div>
