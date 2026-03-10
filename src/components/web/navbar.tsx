@@ -4,7 +4,10 @@ import { ThemeToggle } from "./theme-toggle";
 
 export function Navbar() {
   return (
-    <nav className="w-full h-16 flex items-center justify-between py-4 px-4 border-b" aria-label="Main navigation">
+    <nav
+      className="w-full h-16 flex items-center justify-between py-4 px-4 border-b"
+      aria-label="Main navigation"
+    >
       <div className="flex items-center gap-4">
         <Link href="/" aria-label="Homepage">
           <h1 className="text-3xl font-bold">
