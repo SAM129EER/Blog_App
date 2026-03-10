@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "NextPro - Advanced Next.js Learning",
-  description: "A comprehensive Next.js learning project with blog, authentication, and API routes",
+  description:
+    "A comprehensive Next.js learning project with blog, authentication, and API routes",
   keywords: ["Next.js", "React", "TypeScript", "Web Development"],
   creator: "NextPro Team",
 };
